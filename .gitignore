@@ -1,0 +1,6 @@
+TweenPeaks/Library/
+TweenPeaks/Temp/
+TweenPeaks/obj/
+*.suo
+*.csproj
+*.sln
