@@ -1,20 +1,20 @@
-﻿using UnityEngine;
+﻿
 
 namespace Assets.Plugins.TweenPeaks.Demo
 {
-    public class RootMenu : MonoBehaviour
+    public class RootMenu : ViewBase
     {
-        public GameObject Tweens;
-        public GameObject Loops;
+        public TweensMenu TweensMenu;
+        public LoopsMenu LoopsMenu;
 
         public void GoToTweens()
         {
-            Tweens.SetActive(true);
+            SwitchTo(TweensMenu);
         }
 
         public void GoToLoops()
         {
-            Loops.SetActive(true);
+            SwitchTo(LoopsMenu);
         }
     }
 }
