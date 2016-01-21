@@ -13,9 +13,9 @@ namespace Assets.Plugins.TweenPeaks.Tweens
 			return fadeInTween;
 		}
 
-		protected override void UpdateValue(float time)
-		{
-			UpdateAlpha(EaseFunc(0f, 1f, time));
-		}
-	}
+        protected override float GetAlpha(float startAlpha, float time)
+        {
+            return EaseFunc(0f, startAlpha, time);
+        }
+    }
 }

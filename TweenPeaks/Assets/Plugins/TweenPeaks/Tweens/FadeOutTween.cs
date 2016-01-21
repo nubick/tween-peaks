@@ -15,15 +15,15 @@ namespace Assets.Plugins.TweenPeaks.Tweens
 			UpdateValue(0);
 		}
 
-		protected override void UpdateValue(float time)
-		{
-			UpdateAlpha(EaseFunc(1f, 0f, time));
-		}
+	    protected  override float GetAlpha(float startAlpha, float time)
+	    {
+	        return EaseFunc(startAlpha, 0f, time);
+	    }
 
-		protected override void OnFinish()
+        protected override void OnFinish()
 		{
 			gameObject.SetActive(false);
-			UpdateAlpha(0);
+            UpdateValue(0f);
 			base.OnFinish();
 		}
 	}
