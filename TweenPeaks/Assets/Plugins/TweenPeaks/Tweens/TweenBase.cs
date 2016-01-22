@@ -15,13 +15,14 @@ namespace Assets.Plugins.TweenPeaks.Tweens
 
 		public static T Create<T>(GameObject item, float duration) where T:TweenBase
 		{
-			//T tween = item.GetComponent<T>();
-			//if (tween == null)
-			//    tween = item.gameObject.AddComponent<T>();
-			//else
-			//    tween.StopAllCoroutines();
+            T tween = item.GetComponent<T>();
+            if (tween == null)
+                tween = item.gameObject.AddComponent<T>();
+            else
+                tween.StopAllCoroutines();
 
-			T tween = item.gameObject.AddComponent<T>();
+            //T tween = item.gameObject.AddComponent<T>();
+
 			tween.EaseFunc = Mathf.Lerp;
 			tween._duration = duration;
 			tween._startTime = Time.time;

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: be5c3ff699a663b4e8d3df063ee35b03
+timeCreated: 1453351047
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: windmill_0
+    21300002: windmill_1
+    21300004: windmill_2
+    21300006: windmill_3
+    21300008: windmill_4
+    21300010: windmill_5
+    21300012: windmill_6
+    21300014: windmill_7
+    21300016: windmill_8
+    21300018: windmill_9
+    21300020: windmill_10
+    21300022: windmill_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: windmill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1191
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 146, y: 28.5}
+        - {x: 146, y: 67.5}
+        - {x: 26, y: 87.5}
+        - {x: 25, y: 198.5}
+        - {x: -13, y: 198.5}
+        - {x: -14, y: 197.5}
+        - {x: -49, y: 79.5}
+        - {x: -143, y: 78.5}
+        - {x: -146, y: 78.5}
+        - {x: -146, y: 37.5}
+        - {x: -67, y: -6.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 98, y: -58.5}
+        - {x: 56, y: 24.5}
+    - name: windmill_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1191
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 146, y: 28.5}
+        - {x: 146, y: 67.5}
+        - {x: 26, y: 87.5}
+        - {x: 25, y: 198.5}
+        - {x: -13, y: 198.5}
+        - {x: -14, y: 197.5}
+        - {x: -49, y: 79.5}
+        - {x: -143, y: 78.5}
+        - {x: -146, y: 78.5}
+        - {x: -146, y: 37.5}
+        - {x: -67, y: -6.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 98, y: -58.5}
+        - {x: 56, y: 24.5}
+    - name: windmill_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1191
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 146, y: 28.5}
+        - {x: 146, y: 67.5}
+        - {x: 26, y: 87.5}
+        - {x: 25, y: 198.5}
+        - {x: -13, y: 198.5}
+        - {x: -14, y: 197.5}
+        - {x: -49, y: 79.5}
+        - {x: -143, y: 78.5}
+        - {x: -146, y: 78.5}
+        - {x: -146, y: 37.5}
+        - {x: -67, y: -6.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 98, y: -58.5}
+        - {x: 56, y: 24.5}
+    - name: windmill_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 8.5}
+        - {x: 41, y: 52.5}
+        - {x: 78, y: 153.5}
+        - {x: 85, y: 179.5}
+        - {x: 64, y: 192.5}
+        - {x: 47, y: 192.5}
+        - {x: 37, y: 187.5}
+        - {x: 4, y: 107.5}
+        - {x: -16, y: 103.5}
+        - {x: -119, y: 138.5}
+        - {x: -130, y: 137.5}
+        - {x: -139, y: 109.5}
+        - {x: -139, y: 96.5}
+        - {x: -38, y: 54.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 126, y: -31.5}
+        - {x: 140, y: -1.5}
+    - name: windmill_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 794
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 8.5}
+        - {x: 41, y: 52.5}
+        - {x: 78, y: 153.5}
+        - {x: 85, y: 179.5}
+        - {x: 64, y: 192.5}
+        - {x: 47, y: 192.5}
+        - {x: 37, y: 187.5}
+        - {x: 4, y: 107.5}
+        - {x: -16, y: 103.5}
+        - {x: -119, y: 138.5}
+        - {x: -130, y: 137.5}
+        - {x: -139, y: 109.5}
+        - {x: -139, y: 96.5}
+        - {x: -38, y: 54.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 126, y: -31.5}
+        - {x: 140, y: -1.5}
+    - name: windmill_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 794
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 8.5}
+        - {x: 41, y: 52.5}
+        - {x: 78, y: 153.5}
+        - {x: 85, y: 179.5}
+        - {x: 64, y: 192.5}
+        - {x: 47, y: 192.5}
+        - {x: 37, y: 187.5}
+        - {x: 4, y: 107.5}
+        - {x: -16, y: 103.5}
+        - {x: -119, y: 138.5}
+        - {x: -130, y: 137.5}
+        - {x: -139, y: 109.5}
+        - {x: -139, y: 96.5}
+        - {x: -38, y: 54.5}
+        - {x: -90, y: -60.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 126, y: -31.5}
+        - {x: 140, y: -1.5}
+    - name: windmill_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 55.5}
+        - {x: 123, y: 128.5}
+        - {x: 123, y: 141.5}
+        - {x: 105, y: 168.5}
+        - {x: 94, y: 164.5}
+        - {x: 4, y: 107.5}
+        - {x: -79, y: 177.5}
+        - {x: -86, y: 177.5}
+        - {x: -112, y: 151.5}
+        - {x: -111, y: 148.5}
+        - {x: -97, y: 133.5}
+        - {x: -39, y: 52.5}
+        - {x: -85, y: 13.5}
+        - {x: -123, y: -29.5}
+        - {x: -123, y: -47.5}
+        - {x: -87, y: -130.5}
+        - {x: -63, y: -189.5}
+        - {x: 66, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 115, y: -43.5}
+        - {x: 82, y: -7.5}
+    - name: windmill_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 397
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 55.5}
+        - {x: 123, y: 128.5}
+        - {x: 123, y: 141.5}
+        - {x: 105, y: 168.5}
+        - {x: 94, y: 164.5}
+        - {x: 4, y: 107.5}
+        - {x: -79, y: 177.5}
+        - {x: -86, y: 177.5}
+        - {x: -112, y: 151.5}
+        - {x: -111, y: 148.5}
+        - {x: -97, y: 133.5}
+        - {x: -39, y: 52.5}
+        - {x: -85, y: 13.5}
+        - {x: -123, y: -29.5}
+        - {x: -123, y: -47.5}
+        - {x: -87, y: -130.5}
+        - {x: -63, y: -189.5}
+        - {x: 66, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 115, y: -43.5}
+        - {x: 82, y: -7.5}
+    - name: windmill_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 397
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 55.5}
+        - {x: 123, y: 128.5}
+        - {x: 123, y: 141.5}
+        - {x: 105, y: 168.5}
+        - {x: 94, y: 164.5}
+        - {x: 4, y: 107.5}
+        - {x: -79, y: 177.5}
+        - {x: -86, y: 177.5}
+        - {x: -112, y: 151.5}
+        - {x: -111, y: 148.5}
+        - {x: -97, y: 133.5}
+        - {x: -39, y: 52.5}
+        - {x: -85, y: 13.5}
+        - {x: -123, y: -29.5}
+        - {x: -123, y: -47.5}
+        - {x: -87, y: -130.5}
+        - {x: -63, y: -189.5}
+        - {x: 66, y: -189.5}
+        - {x: 99, y: -131.5}
+        - {x: 115, y: -43.5}
+        - {x: 82, y: -7.5}
+    - name: windmill_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 71.5}
+        - {x: 146, y: 77.5}
+        - {x: 146, y: 97.5}
+        - {x: 133, y: 120.5}
+        - {x: 19, y: 100.5}
+        - {x: -22, y: 198.5}
+        - {x: -55, y: 198.5}
+        - {x: -69, y: 196.5}
+        - {x: -36, y: 87.5}
+        - {x: -140, y: 35.5}
+        - {x: -146, y: 28.5}
+        - {x: -146, y: -20.5}
+        - {x: -59, y: 5.5}
+        - {x: -75, y: -21.5}
+        - {x: -95, y: -59.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 95, y: -131.5}
+        - {x: 95, y: -59.5}
+        - {x: 45, y: 39.5}
+    - name: windmill_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 71.5}
+        - {x: 146, y: 77.5}
+        - {x: 146, y: 97.5}
+        - {x: 133, y: 120.5}
+        - {x: 19, y: 100.5}
+        - {x: -22, y: 198.5}
+        - {x: -55, y: 198.5}
+        - {x: -69, y: 196.5}
+        - {x: -36, y: 87.5}
+        - {x: -140, y: 35.5}
+        - {x: -146, y: 28.5}
+        - {x: -146, y: -20.5}
+        - {x: -59, y: 5.5}
+        - {x: -75, y: -21.5}
+        - {x: -95, y: -59.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 95, y: -131.5}
+        - {x: 95, y: -59.5}
+        - {x: 45, y: 39.5}
+    - name: windmill_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 292
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140, y: 71.5}
+        - {x: 146, y: 77.5}
+        - {x: 146, y: 97.5}
+        - {x: 133, y: 120.5}
+        - {x: 19, y: 100.5}
+        - {x: -22, y: 198.5}
+        - {x: -55, y: 198.5}
+        - {x: -69, y: 196.5}
+        - {x: -36, y: 87.5}
+        - {x: -140, y: 35.5}
+        - {x: -146, y: 28.5}
+        - {x: -146, y: -20.5}
+        - {x: -59, y: 5.5}
+        - {x: -75, y: -21.5}
+        - {x: -95, y: -59.5}
+        - {x: -95, y: -124.5}
+        - {x: -62, y: -189.5}
+        - {x: 68, y: -189.5}
+        - {x: 95, y: -131.5}
+        - {x: 95, y: -59.5}
+        - {x: 45, y: 39.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

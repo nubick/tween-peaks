@@ -26,5 +26,10 @@ namespace Assets.Plugins.TweenPeaks.Tweens
             UpdateValue(0f);
 			base.OnFinish();
 		}
+
+	    public static bool Exists(GameObject item)
+	    {
+	        return item.GetComponent<FadeOutTween>() != null;
+	    }
 	}
 }
