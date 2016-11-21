@@ -15,14 +15,7 @@ namespace Assets.Scripts.Utils.TweenPeaks.Tweens
 
 		public static T Create<T>(GameObject item, float duration) where T:TweenBase
 		{
-            //T tween = item.GetComponent<T>();
-            //if (tween == null)
-            //    tween = item.gameObject.AddComponent<T>();
-            //else
-            //    tween.StopAllCoroutines();
-
             T tween = item.gameObject.AddComponent<T>();
-
 			tween.EaseFunc = Mathf.Lerp;
 			tween._duration = duration;
 			tween._startTime = Time.time;
@@ -47,7 +40,15 @@ namespace Assets.Scripts.Utils.TweenPeaks.Tweens
 			return this;
 		}
 
-		public void Update()
+	    public TweenBase Single()
+	    {
+            foreach(TweenBase tween in gameObject.GetComponents<TweenBase>())
+                if (tween != this)
+                    tween.Finish();
+	        return this;
+	    }
+
+        public void Update()
 		{
 			if(_isStarted)
 			{
@@ -90,5 +91,18 @@ namespace Assets.Scripts.Utils.TweenPeaks.Tweens
 			FinishAction = finishAction;
 			return this;
 		}
+
+        public static void FinishAll(GameObject gameObject)
+        {
+            foreach (TweenBase tweenBase in gameObject.GetComponents<TweenBase>())
+                tweenBase.Finish();
+        }
+
+	    public static void FinishAll<T>(GameObject gameObject)
+	        where T : TweenBase
+	    {
+	        foreach (T tween in gameObject.GetComponents<T>())
+	            tween.Finish();
+	    }
 	}
 }
