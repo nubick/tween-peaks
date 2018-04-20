@@ -2,8 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Utils.TweenPeaks;
-using Assets.Scripts.Utils.TweenPeaks.Tweens;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Utils.TweenPeaks;
+using TweenPeaks;
 using UnityEngine;
 using UnityEngine.UI;
 

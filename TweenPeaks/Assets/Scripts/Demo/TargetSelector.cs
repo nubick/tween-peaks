@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Demo.TweenActions;
-using Assets.Scripts.Utils.TweenPeaks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 

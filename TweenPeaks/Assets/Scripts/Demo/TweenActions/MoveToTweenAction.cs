@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Utils.TweenPeaks.Tweens;
+﻿using TweenPeaks.Tweens;
 using UnityEngine;
 
 namespace Assets.Scripts.Demo.TweenActions

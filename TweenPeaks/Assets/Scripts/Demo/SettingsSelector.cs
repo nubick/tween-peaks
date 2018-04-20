@@ -1,5 +1,5 @@
 ﻿using Assets.Scripts.Demo.TweenActions;
-using Assets.Scripts.Utils.TweenPeaks;
+using TweenPeaks;
 using UnityEngine;
 
 namespace Assets.Scripts.Demo
