@@ -13,12 +13,12 @@ namespace TweenPeaks.Tweens
 
         public static ShakeTween RunLeft(GameObject gameObject, float kickDistance)
         {
-            return RunDirection(gameObject, kickDistance, new Vector2(1f, 0f));
+            return RunDirection(gameObject, kickDistance, new Vector2(-1f, 0f));
         }
 
         public static ShakeTween RunRight(GameObject gameObject, float kickDistance)
         {
-            return RunDirection(gameObject, kickDistance, new Vector2(-1f, 0f));
+            return RunDirection(gameObject, kickDistance, new Vector2(1f, 0f));
         }
 
         public static ShakeTween RunUp(GameObject gameObject, float kickDistance)
