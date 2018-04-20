@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace TweenPeaks.Tweens
@@ -131,5 +132,14 @@ namespace TweenPeaks.Tweens
                 Destroy(tween);
         }
 
+        /// <summary>
+        /// Return IEnumerator for Coroutines. It allows to wait tween finishing.
+        /// ex: yield return MoveTween.Run(go, pos, time).WaitForFinish();
+        /// </summary>
+        public IEnumerator WaitForFinish()
+        {
+            while (this != null)//not destoyed yet
+                yield return null;
+        }
     }
 }
