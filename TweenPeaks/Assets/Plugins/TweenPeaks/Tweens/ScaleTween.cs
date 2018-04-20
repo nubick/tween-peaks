@@ -14,6 +14,11 @@ namespace TweenPeaks.Tweens
             return tween;
         }
 
+        public static ScaleTween Run(GameObject item, float scale, float duration)
+        {
+            return Run(item, Vector3.one * scale, duration);
+        }
+
         protected override void OnStart()
         {
             _startScale = transform.localScale;
