@@ -59,7 +59,7 @@ namespace TweenPeaks.Tweens
 		protected abstract void UpdateValue(float time);
 
 		public void Update()
-		{
+		{			
 			if (_isStarted)
 			{
 				float time = (Time.time - _startTime) / _duration;

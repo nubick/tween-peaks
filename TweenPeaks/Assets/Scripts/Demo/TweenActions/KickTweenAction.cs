@@ -34,7 +34,7 @@ namespace Assets.Scripts.Demo.TweenActions
 			if (tween.IsFinished())
 				yield return KickTween.RunDown(target, 100f).WaitForFinish();
 
-			KickTween.RunDirection(target, 100f, new Vector2(4f, 3f));
+			KickTween.RunDirection(target, 100f, new Vector2(2f, 1.5f));
 		}
 	}
 }
