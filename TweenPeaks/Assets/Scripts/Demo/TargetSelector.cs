@@ -38,6 +38,7 @@ namespace Assets.Scripts.Demo
         {
             if (TweenActionSelector.SelectedTweenAction != null)
             {
+				TweenActionSelector.SelectedTweenAction.CoroutinesHoster = this;
                 TweenActionSelector.SelectedTweenAction.Run(target, SettingsSelector.GetSettings());
             }
         }
